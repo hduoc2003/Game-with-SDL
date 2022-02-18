@@ -75,10 +75,10 @@ int main(int argc, char* argv[])
     /// use SDL_RenderPresent(renderer) to show it
 
 
-   //Khi thông thường chạy với môi trường bình thường ở nhà
+   ///Khi thông thường chạy với môi trường bình thường ở nhà
     SDL_RenderPresent(renderer);
-   //Khi chạy ở máy thực hành WinXP ở trường (máy ảo)
-   //SDL_UpdateWindowSurface(window);
+   ///Khi chạy ở máy thực hành WinXP ở trường (máy ảo)
+   ///SDL_UpdateWindowSurface(window);
 
 
     waitUntilKeyPressed();
